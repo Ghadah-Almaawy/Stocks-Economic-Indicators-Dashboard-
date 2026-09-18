@@ -1,16 +1,15 @@
-# Stocks & Economic Indicators Dashboard 📊📈
+# Stocks & Economic Indicators Dashboard
 
 An interactive, multi-page **Power BI** dashboard that integrates Saudi stock market data with global macroeconomic indicators, combining descriptive, predictive, and prescriptive analytics to help users explore the relationship between financial markets and economic conditions.
 
 > Course project — DS322: Business Intelligence, 2nd Semester 2025–2026.
 > Aligned with **UN SDG 8** (Decent Work and Economic Growth) and **SDG 9** (Industry, Innovation and Infrastructure).
-> This was a **group project**; this repository reflects my contribution to the shared codebase.
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Financial markets and economic conditions are closely linked, but investors and analysts often lack a unified tool to analyze both together. Do rising inflation rates negatively affect stock prices? Does strong GDP growth lead to better market performance? This dashboard was built to make these relationships explorable rather than theoretical.
 
-## 🗂️ Data Sources
+##  Data Sources
 
 | Dataset | Source | Format | Records | Date Range |
 |---|---|---|---|---|
@@ -22,7 +21,7 @@ Financial markets and economic conditions are closely linked, but investors and 
 
 The two datasets — daily stock data and yearly economic data — were linked through a shared `Year` field in the data model (`CompanyFact`, `DataGDP`, `DataInflation`, `DataUnemployment` tables).
 
-## 🖼️ Dashboard Preview
+##  Dashboard Preview
 
 **Saudi Stock Market Dashboard**
 ![Stocks Dashboard](screenshots/01_stocks_dashboard.png)
@@ -36,7 +35,7 @@ The two datasets — daily stock data and yearly economic data — were linked t
 **Market Insights Dashboard**
 ![Market Insights Dashboard](screenshots/04_market_insights_dashboard.png)
 
-## 🖥️ Dashboard Pages
+##  Dashboard Pages
 
 **1. Stocks Dashboard** — KPI cards (Peak Trading Value, Highest Low/High Price), a DAX-driven **Investment Recommendation** card (BUY/HOLD/SELL based on trading activity), average value traded by year and by company, and normalized closing-price trends across the four companies.
 
@@ -48,26 +47,26 @@ The two datasets — daily stock data and yearly economic data — were linked t
 
 All pages include slicers (date range, company, country, year) for interactive filtering.
 
-## 🧮 Key DAX Measures
+##  Key DAX Measures
 
 - **Investment Recommendation** — a `SWITCH`-based measure returning `SELL — High Risk`, `HOLD — Medium Risk`, or `BUY — Low Risk` based on average value traded (prescriptive analytics).
 - **Normalized Close / Normalized Value Traded** — scales each company's values by the dataset maximum, enabling fair cross-company comparison.
 - **Peak Trading Value, Highest Low Price, Peak High Price** — KPI measures for the Stocks page.
 - **Average GDP Growth, Unemployment, Inflation** — `AVERAGE()`-based KPI measures used across the economy pages.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Microsoft Power BI (Power Query, Data Model relationships, DAX)
 - Built-in Power BI forecasting for predictive trend lines
 
-## 🚀 Opening the Project
+##  Opening the Project
 
 ```bash
 git clone <this-repo-url>
 ```
 Open `stocks_economy_dashboard.pbix` in **Power BI Desktop** (free download from Microsoft). No external database connection is required — the data is embedded in the model.
 
-## 🔍 Limitations & Future Work
+##  Limitations & Future Work
 
 - Economic data is yearly while stock data is daily, so comparisons are necessarily approximate (linked via the `Year` field).
 - Only 4 companies are covered, which may not represent the broader Saudi market.
@@ -76,10 +75,7 @@ Open `stocks_economy_dashboard.pbix` in **Power BI Desktop** (free download from
 
 Planned improvements: connecting to live data via APIs (e.g. Yahoo Finance, Alpha Vantage), using quarterly instead of yearly economic data, applying ML-based forecasting/classification models, and adding sentiment analysis from financial news.
 
-## 👥 Team & Contribution
 
-This was a group project completed as part of the DS322 Business Intelligence course. My role focused on **[fill in your specific contribution, e.g. "data modeling & DAX measures" or "dashboard design for the Predictive/Market Insights pages"]**.
-
-## 📄 License
+##  License
 
 This project is shared for educational and portfolio purposes.
