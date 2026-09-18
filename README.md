@@ -27,13 +27,13 @@ The two datasets — daily stock data and yearly economic data — were linked t
 ![Stocks Dashboard](01_stocks_dashboard.png)
 
 **EconomyData Dashboard**
-![Economy Dashboard](screenshots/02_economy_dashboard.png)
+![Economy Dashboard](02_economy_dashboard.png)
 
 **Economy vs Stocks Predictive Dashboard**
-![Predictive Dashboard](screenshots/03_predictive_dashboard.png)
+![Predictive Dashboard](03_predictive_dashboard.png)
 
 **Market Insights Dashboard**
-![Market Insights Dashboard](screenshots/04_market_insights_dashboard.png)
+![Market Insights Dashboard](04_market_insights_dashboard.png)
 ##  Dashboard Pages
 
 **1. Stocks Dashboard** — KPI cards (Peak Trading Value, Highest Low/High Price), a DAX-driven **Investment Recommendation** card (BUY/HOLD/SELL based on trading activity), average value traded by year and by company, and normalized closing-price trends across the four companies.
