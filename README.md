@@ -24,7 +24,7 @@ The two datasets — daily stock data and yearly economic data — were linked t
 ##  Dashboard Preview
 
 **Saudi Stock Market Dashboard**
-![Stocks Dashboard](screenshots/01_stocks_dashboard.png)
+![Stocks Dashboard](01_stocks_dashboard.png)
 
 **EconomyData Dashboard**
 ![Economy Dashboard](screenshots/02_economy_dashboard.png)
