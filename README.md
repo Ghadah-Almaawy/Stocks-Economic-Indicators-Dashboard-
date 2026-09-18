@@ -34,7 +34,6 @@ The two datasets — daily stock data and yearly economic data — were linked t
 
 **Market Insights Dashboard**
 ![Market Insights Dashboard](screenshots/04_market_insights_dashboard.png)
-
 ##  Dashboard Pages
 
 **1. Stocks Dashboard** — KPI cards (Peak Trading Value, Highest Low/High Price), a DAX-driven **Investment Recommendation** card (BUY/HOLD/SELL based on trading activity), average value traded by year and by company, and normalized closing-price trends across the four companies.
