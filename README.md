@@ -58,13 +58,6 @@ All pages include slicers (date range, company, country, year) for interactive f
 - Microsoft Power BI (Power Query, Data Model relationships, DAX)
 - Built-in Power BI forecasting for predictive trend lines
 
-##  Opening the Project
-
-```bash
-git clone <this-repo-url>
-```
-Open `stocks_economy_dashboard.pbix` in **Power BI Desktop** (free download from Microsoft). No external database connection is required — the data is embedded in the model.
-
 ##  Limitations & Future Work
 
 - Economic data is yearly while stock data is daily, so comparisons are necessarily approximate (linked via the `Year` field).
