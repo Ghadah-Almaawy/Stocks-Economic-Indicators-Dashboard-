@@ -69,6 +69,8 @@ All pages include slicers (date range, company, country, year) for interactive f
 
 Planned improvements: connecting to live data via APIs (e.g. Yahoo Finance, Alpha Vantage), using quarterly instead of yearly economic data, adding risk measures such as price volatility to the recommendation logic, applying ML-based forecasting models, and adding sentiment analysis from financial news.
 
-##  License
+## License
 
-This project is shared for educational and portfolio purposes.
+© 2026 Ghadah Almaawy and the original project team. All rights reserved.
+
+This repository is shared publicly for viewing as part of a portfolio. Copying, redistributing, or submitting this code or analysis, in whole or in part, as your own work is not permitted without written permission.
