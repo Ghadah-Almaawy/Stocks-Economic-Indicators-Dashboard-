@@ -71,6 +71,6 @@ Planned improvements: connecting to live data via APIs (e.g. Yahoo Finance, Alph
 
 ## License
 
-© 2026 Ghadah Almaawy and the original project team. All rights reserved.
+© 2026 Ghadah Almaawy and the original project team. All rights reserved. This dashboard was a group course project (DS322), and I built most of it.
 
-This repository is shared publicly for viewing as part of a portfolio. Copying, redistributing, or submitting this code or analysis, in whole or in part, as your own work is not permitted without written permission.
+This repository is shared publicly for viewing as part of my portfolio. Copying, redistributing, or submitting this work, in whole or in part, as your own is not permitted without written permission.
